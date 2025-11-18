@@ -46,7 +46,7 @@ function App() {
     formData.append('file', fileToUpload);
 
     try {
-      const response = await axios.post<ApiResponse>('https://floor-plan-area.vercel.app/', formData, {
+      const response = await axios.post<ApiResponse>('https://floor-plan-area-fxdpb2b6g-parth-kalsariyas-projects-20384910.vercel.app/', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
